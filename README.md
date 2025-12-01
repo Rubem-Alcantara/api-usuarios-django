@@ -1,8 +1,16 @@
- 3ª EA - API de Usuários com Django Rest Framework
+📚 3ª EA - API de Usuários com Django Rest Framework
 
 Projeto desenvolvido para a 3ª EA (Atividade de "Colaborar"), com foco na compreensão de **APIs**, sintaxe **JSON** e segurança com **JWT**.
 
 O objetivo prático foi criar uma API REST utilizando **Django** e **Django Rest Framework** para trafegar dados em formato JSON.
+O trabalho foi dividido em 4 passos cobrindo as UAs 9 a 12:
+
+🔹 Passo 1: SQL vs NoSQL (UA9)
+Análise comparativa entre estruturas de banco de dados.
+* **SQL (Relacional):** Estrutura rígida (tabelas), consistência forte (ACID), ideal para dados previsíveis e relacionamentos complexos.
+* **NoSQL (Não Relacional):** Estrutura flexível (documentos, chave-valor), alta escalabilidade horizontal, ideal para Big Data e formatos dinâmicos.
+
+🔹 Passo 2: Sintaxe JSON (UA10)
 
 Estruturação dos dados de usuários solicitados no formato JSON:
 
@@ -18,7 +26,7 @@ Estruturação dos dados de usuários solicitados no formato JSON:
   }
 ]
 ```
-Passo 3: Implementação da API
+🔹 Passo 3: Implementação da API
 Desenvolvimento de uma rota (endpoint) utilizando APIView do Django Rest Framework para retornar os dados acima.
 
 *Endpoint: /api/usuarios/
@@ -27,7 +35,7 @@ Desenvolvimento de uma rota (endpoint) utilizando APIView do Django Rest Framewo
 
 *Status Esperado: 200 OK
 
-Passo 4: Segurança com JWT (UA12)
+🔹 Passo 4: Segurança com JWT (UA12)
 Estudo sobre o fluxo de autenticação JSON Web Token:
 
 1. Cliente envia credenciais.
